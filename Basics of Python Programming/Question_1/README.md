@@ -1,5 +1,5 @@
 ## Question 1:
-**Write a program to calculate the body mass index (BMI) of a person. (BMI = kg/m², where kg is person's weight and m is his/her height in meters.**
+**<u>Write a program to calculate the body mass index (BMI) of a person. (BMI = kg/m², where kg is person's weight and m is his/her height in meters.</u>**
 
 Some Reference about BMI Calculator:
 ### BMI CALCULATOR
