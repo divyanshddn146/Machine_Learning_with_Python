@@ -7,7 +7,7 @@ Some Reference about split() Function:
 
 Python String split() method splits a string into a list of strings after breaking the given string by the specified separator.
 
-Python String split() Method Syntax:
+Python String split() Method Syntax:</br>
 `str.split(separator, maxsplit)`
 
 
