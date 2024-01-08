@@ -22,8 +22,22 @@ print(result)
 strings = ["Hello"," World"]
 result.join(strings)
 print(result)
-# To peform String concatenation by placing strings side by side
+# To peform String concatenation using f-string.
 str1 = "Hello"
 str2 = " World"
 result = f"{str1}{str2}"
 print(result)
+# To peform String concatenation using format strings
+str1 = "Hello"
+str2 = " World"
+result = "{}{}".format(str1,str2)
+print(result)
+# To peform String concatenation using % operator
+str1 = "Hello"
+str2 = " World"
+result = "%s%s" % (str1, str2)
+print(result)
+# To peform String concatenation by using comma(,)
+str1 = "Hello"
+str2 = "World"
+print(str1,str2)
