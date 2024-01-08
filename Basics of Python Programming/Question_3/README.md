@@ -1,7 +1,7 @@
 ## Question 3:
 #### **Write a program to to demonstrate printing a string with single quotes,double quotes, and triple quotes**
 
-==Some Reference about how Strings in python are written.==
+Some Reference about how Strings in python are written.
 ### Strings in Python
 
 In Python, strings can be represented using single quotes ('), double quotes ("), or triple quotes (''' or """). Each of these has slightly different behavior, and the choice between them depends on your specific requirements. Here's an overview of the differences:
