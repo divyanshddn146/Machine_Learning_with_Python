@@ -5,7 +5,7 @@
 Some Reference on some String functions in python.
 ### Some String Function in Python
 
-1) **Python upper() function**<br>
+1/) **Python upper() function**<br>
 Python String upper() method converts all lowercase characters in a string into uppercase characters and returns it.
 
 2) **Python lower() function**<br>
