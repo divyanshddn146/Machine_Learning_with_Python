@@ -9,4 +9,4 @@ In Python, strings can be represented using single quotes ('), double quotes (")
 * Strings can be defined using either single or double quotes interchangeably.
 * Triple quotes are used for multiline strings or strings that span across multiple lines.
 
-**Note**:Irrespective of of the way string is specified, all strings are mutable in python. This means that once we created a string it cannot be changed.
+**Note:** Irrespective of of the way string is specified, all strings are mutable in python. This means that once we created a string it cannot be changed.
