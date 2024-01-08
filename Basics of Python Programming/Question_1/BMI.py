@@ -7,10 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/1LyqacOArbQ9XwM6gA4FVz9CR047eOna-
 """
 
+# To input Weight in Kg
 a=float(input("Enter your weight(in Kg):"))
+# To input Height in meters
 b=float(input("Enter your height(in meters):"))
+# Formula for calculating BMI index
 d=a/(b*b)
+# Rounding off the result
 c=round(d)
+# Conditions for BMI index that are also listed in README file.
 if(c<=18.5):
     print(f"Your BMI is {c} and you are underweight")
 elif(c<25):
