@@ -1,3 +1,7 @@
+Question 1:
+Write a program to calculate the body mass index (BMI) of a person. (BMI = kg/m², where kg is person's weight and m is his/her height in meters.
+
+Some Reference about BMI Calculator:
 # BMI CALCULATOR
 
 The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration.BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass.Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between. These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. 
