@@ -8,8 +8,8 @@ Original file is located at
 """
 
 a=float(input("Enter your weight(in Kg):"))
-b=float(input("Enter your height(in centimeters):"))
-d=a*10000/(b*b)
+b=float(input("Enter your height(in meters):"))
+d=a/(b*b)
 c=round(d)
 if(c<=18.5):
     print(f"Your BMI is {c} and you are underweight")
