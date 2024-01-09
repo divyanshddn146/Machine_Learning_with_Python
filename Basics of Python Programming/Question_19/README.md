@@ -9,7 +9,7 @@ Math Module is an in-built Python library made to simplify mathematical tasks in
 It consists of various mathematical constants and functions that can be used after importing the math module.
 
 Here are some common functions and constants available in the math module:<br>
-&ensp;&ensp;`
+`
     import math
 `
 
