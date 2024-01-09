@@ -12,6 +12,9 @@
 \*\*\*\*\*\*\*\*\*BILL\*\*\*\*\*\*\*\*\*\*\*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6ff20c3 (Update README.md)
+=======
 >>>>>>> parent of 6ff20c3 (Update README.md)
 =======
 >>>>>>> parent of 6ff20c3 (Update README.md)
