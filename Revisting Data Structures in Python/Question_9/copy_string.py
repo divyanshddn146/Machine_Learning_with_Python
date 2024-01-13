@@ -1,3 +1,5 @@
+# Program to copy a String as in python string are immutable and can be copied in various ways that are give below:
+
 # Using String Slicing
 def copy_string(original):
     copied = original[:]
