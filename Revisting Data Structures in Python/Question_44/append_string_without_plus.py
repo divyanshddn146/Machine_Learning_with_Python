@@ -8,7 +8,7 @@ Original file is located at
 """
 
 str1 = input("Enter the string:")
-str2 = input("ENter string to be appended:")
+str2 = input("Enter string to be appended:")
 
 str3 = "".join([str1,str2])
 print(str3)
