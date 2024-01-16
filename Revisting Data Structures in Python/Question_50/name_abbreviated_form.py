@@ -12,5 +12,5 @@ list_name = name.split()
 new = ""
 for i in list_name:
     new = new + i[0]
-new = ".".join(new)
+
 print(new.upper())
