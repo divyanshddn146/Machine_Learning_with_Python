@@ -10,7 +10,6 @@ Original file is located at
 import numpy as np
 
 np_arr  = np.array([[99,45,67,34,53],[45,43,56,54,89],[96,74,55,63,32],[89,74,87,32,98],[32,76,89,97,87]])
-arr_dim = np_arr.shape
 list1 = ["Maths","Physics","Chemistry","English","Computer Science"]
 # Max value in each subject
 max = np_arr.max(axis = 0)
@@ -22,4 +21,23 @@ for i in range(0,len(list1)):
 # Adding marks of two more students in our array
 np_arr = np.vstack([np_arr,[[67,35,89,76,54],[45,34,58,79,87]]])
 print(np_arr)
+# Inserting marks of one more subject
+arr_dim = np_arr.shape
+# Randomly inserted the marks of students
+b = np.random.randint(low = 0,high=100,size=arr_dim[0]).reshape((arr_dim[0],1))
+np_arr = np.hstack([np_arr,b]).reshape(arr_dim[0],arr_dim[1]+1)
+print(np_arr)
+# To delete a specific row
+
+np_arr = np.delete(arr=np_arr,obj=[0],axis=0)
+print(np_arr)
+
+# To delete a user specified coulmn from array
+arr_dim = np_arr.shape
+user_input = int(input("Enter column you want to be deleted:"))
+if(user_input > arr_dim[1]):
+    print("Wrong value entered")
+else:
+    np_arr = np.delete(arr=np_arr,obj=[user_input],axis=1)
+    print(np_arr)
 
